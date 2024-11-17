@@ -1,0 +1,57 @@
+#main_container {
+  background: linear-gradient(257.7deg, #19086c 5.98%, #0d043d 98.16%);
+  color: white;
+  position: relative;
+}
+
+.content_head h1 {
+  font-size: 3rem;
+  margin: 0 1rem;
+}
+
+.content_head {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+.content_head_p {
+  text-align: center;
+  color: #c5c5c5;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 50%;
+  margin-top: 2rem;
+}
+.content_head,
+.content_head_p {
+  font-family: "Lato", sans-serif;
+}
+.rev_img {
+  transform: rotate(180deg);
+}
+
+.cards {
+  padding: 0px 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 6rem;
+  row-gap: 2rem;
+  justify-content: space-around;
+  align-content: center;
+  width: 90vw;
+  margin: 3rem auto 0 auto;
+}
+
+.btm_br {
+  height: 3rem;
+  background: linear-gradient(257.7deg, #19086c 5.98%, #0d043d 98.16%);
+}
+
+@media screen and (max-width: 1310px) {
+  .content_head h1 {
+    font-size: 1.6rem;
+  }
+}

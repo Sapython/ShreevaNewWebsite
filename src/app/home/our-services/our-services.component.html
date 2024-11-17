@@ -1,0 +1,21 @@
+<div id="main_container">
+
+  <div class="content_area">
+    <div class="content_head">
+      <img src="../../../assets/Group.svg" alt="group">
+      <h1>Our Services</h1>
+      <img src="../../../assets/Group.svg" class="rev_img" alt="">
+    </div>
+    <div class="content_head_p">
+      <p>Choose The Tech Stack For Your Next Application, Or Let Our</p>
+      <p>Experts Pick The Best Solution For You</p>
+    </div>
+    <div class="cards">
+      <div *ngFor="let item of data">
+        <app-glassmorphism-card [item]="item"></app-glassmorphism-card>
+      </div>
+    </div>
+    <div class="btm_br"></div>
+  </div>
+
+</div>

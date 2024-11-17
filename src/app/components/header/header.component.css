@@ -1,0 +1,66 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #291b67;
+  /* border-bottom: 0.1px solid white; */
+}
+#navbar img {
+  width: 60px;
+  /* height: 60px; */
+}
+.nav_div {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  list-style: none;
+}
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#navbar_btn,
+#navbar_btn div {
+  display: flex;
+  align-items: center;
+}
+#navbar_btn button {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+
+.login {
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  margin-right: 0.6rem;
+}
+.signup {
+  border: 1px solid black;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  z-index: 1;
+
+  background: rgb(108, 108, 201);
+  padding: 0.4rem;
+}
+
+/* Navbar done */

@@ -1,0 +1,130 @@
+#main_container {
+  background: linear-gradient(257.7deg, #19086c 5.98%, #0d043d 98.16%);
+  color: white;
+  padding-bottom: 4rem;
+  position: relative;
+}
+.content_head {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+.content_head h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+}
+.content_head p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -1rem;
+}
+.border_bottom {
+  position: relative;
+  text-align: center;
+}
+
+.border_bottom_div {
+  position: absolute;
+  border-bottom: 5px solid #f14bbe;
+  margin-top: -0.8rem;
+  left: 35%;
+  right: 35%;
+}
+
+.teams {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.teams_data {
+  display: flex;
+  position: relative;
+}
+
+.teams_data img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.teams_data_div_card h2 {
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+}
+.teams_data_div_card span {
+  font-size: 0.8rem;
+  margin-left: 0.4rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+}
+.teams_data_div_card {
+  margin: 4rem 4rem 0 4rem;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.teams_data_div1 {
+  margin-top: -2.5rem;
+}
+.teams_data_div2 {
+  margin-left: 4rem;
+}
+.card1 {
+  margin-bottom: 10.4rem;
+}
+.card2 {
+  margin-top: 9.4rem;
+}
+.teams_skills p {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-bottom: -0.6rem;
+}
+.teams_skills ul {
+  display: flex;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.teams_skills li {
+  border: 1px solid;
+  margin: 0.4rem 0.6rem 0 0;
+  padding: 0.2rem 0.5rem 0.35rem 0.5rem;
+  border-radius: 0.6rem;
+  list-style: none;
+  background: rgba(217, 217, 217, 0.05);
+}
+
+/* @media screen and (min-width: 1024px) {
+  .teams_data img {
+    width: 40%;
+  }
+  h2 {
+    font-size: smaller;
+  }
+  .teams_skills p {
+    font-size: 0.6rem;
+  }
+  .teams_skills ul {
+    font-size: 0.8rem;
+  }
+} */
+/* margin-top: 14rem; */

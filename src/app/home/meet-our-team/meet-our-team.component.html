@@ -1,0 +1,46 @@
+<div id="main_container">
+  <div class="content_area">
+    <div class="content_head">
+      <div class="border_bottom">
+        <h1>Meet Our Team</h1>
+        <p>We Design & Build Innovative Solutions</p>
+        <div class="border_bottom_div"></div>
+      </div>
+    </div>
+    <div class="teams">
+      <div class="teams_data">
+        <div class="teams_data_div1">
+          <div *ngFor="let item of dataArr1" class="teams_data_div_card card1">
+            <div class={{item.team_name}}>
+
+              <h2>{{item.team_name}} <span> . {{item.members}} Members</span></h2>
+              <div class="teams_skills">
+                <p>Skills</p>
+                <ul>
+                  <li *ngFor="let skill of item.skills">
+                    {{skill}}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="../../../assets/meetteam.svg" alt="">
+        <div class="teams_data_div2">
+          <div *ngFor="let item of dataArr2" class="teams_data_div_card card2">
+            <div class={{item.team_name}}>
+
+              <h2>{{item.team_name}} <span> . {{item.members}} Members</span></h2>
+              <div class="teams_skills">
+                <p>Skills</p>
+                <ul>
+                  <li *ngFor="let skill of item.skills">
+                    {{skill}}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<div id="main_container">
+  <div class="content_area">
+    <div class="content_head">
+      <img src="../../../assets/Group.svg" alt="group">
+      <div class="border_bottom">
+        <h1>Clients Trust Us</h1>
+        <div class="border_bottom_div">
+        </div>
+      </div>
+      <img src="../../../assets/Group.svg" class="rev_img" alt="">
+    </div>
+    <div class="clients">
+      <div class="clients_data">
+        <div *ngFor="let item of data" class="client_img_div">
+          <img src={{item.img}} alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

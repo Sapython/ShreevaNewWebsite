@@ -1,0 +1,43 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#intro_container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../../../assets/spaceBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+#content h1 {
+  background: linear-gradient(135deg, #fff886 0%, #f072b6 100%);
+  background-clip: text;
+  color: transparent;
+  padding-top: 2rem;
+}
+.content_p {
+  color: #ffffff;
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+}
+
+.explore_btn {
+  color: white;
+  background-color: #ea48bb;
+  padding: 0.8rem;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+  z-index: 1;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 0px 5px 5px 5px rgb(168, 92, 117);
+}
+
+.main_img {
+  margin-top: -18rem;
+  width: 100%;
+}

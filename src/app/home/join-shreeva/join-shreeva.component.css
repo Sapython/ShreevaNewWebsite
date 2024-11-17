@@ -1,0 +1,43 @@
+#main_container {
+  background: linear-gradient(257.7deg, #19086c 5.98%, #0d043d 98.16%);
+  color: white;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.content_head h1 {
+  font-size: 2.2rem;
+  font-family: "Alata";
+  font-style: normal;
+}
+
+.content_head {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+.rev_img {
+  transform: rotate(180deg);
+}
+
+.content_main_img_div {
+  width: 80%;
+  margin: 2rem auto 0 auto;
+  padding-bottom: 4rem;
+}
+.content_main_img_div img {
+  width: 100%;
+}
+.ellipse {
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 1320px) {
+  .content_head h1 {
+    font-size: 1.4rem;
+  }
+}

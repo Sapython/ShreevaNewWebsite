@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main_container {
+  background: linear-gradient(257.7deg, #19086c 5.98%, #0d043d 98.16%);
+  color: white;
+  padding-bottom: 2rem;
+}
+.content_head {
+  background-image: url("../../../assets/vcbg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+.border_bottom {
+  position: relative;
+}
+.border_bottom_div {
+  position: absolute;
+  border-bottom: 5px solid #f14bbe;
+  margin-top: 1rem;
+  left: 25%;
+  right: 25%;
+}
+
+.content_head h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.rev_img {
+  transform: rotate(180deg);
+}
+.form_card {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  /* border: 1px solid; */
+}
+.form_card_div {
+  margin: 4rem auto;
+  width: fit-content;
+}
+.form_card_div {
+  background: rgba(217, 217, 217, 0.25);
+  backdrop-filter: blur(28px);
+  padding: 1rem 2rem 1rem 1rem;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.flower {
+  position: absolute;
+}
+.left {
+  left: -60px;
+  bottom: -75px;
+  width: 14%;
+  transform: rotate(353deg);
+}
+.right {
+  right: -58px;
+  top: -77px;
+  width: 14%;
+  transform: rotate(351deg);
+}
+.card {
+  margin: 1rem;
+}
+.card input {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+  color: #ffffff !important;
+  background: rgba(29, 33, 34, 0.3);
+  border-radius: 12px;
+  outline: none;
+  font-size: larger;
+  margin: 0.5rem 0;
+  padding: 0.8rem 0.5rem 0.8rem 0.5rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.card input::placeholder {
+  color: #ffffff;
+}
+.btn {
+  background: #fb51c4 !important;
+  margin: 1rem auto !important;
+  display: block;
+  box-shadow: 0px 4px 6px rgba(217, 46, 228, 0.5);
+  border-radius: 16px;
+  border: none;
+  width: 20% !important;
+}

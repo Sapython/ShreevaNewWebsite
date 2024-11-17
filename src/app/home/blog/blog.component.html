@@ -1,0 +1,29 @@
+<div id="main_container">
+  <div class="content_area">
+    <div class="content_head">
+      <img src="../../../assets/Group.svg" alt="group">
+      <div class="border_bottom">
+        <h1>Blog</h1>
+        <div class="border_bottom_div">
+        </div>
+      </div>
+      <img src="../../../assets/Group.svg" class="rev_img" alt="">
+    </div>
+    <div class="blog_card_main">
+      <div class="blog_cards">
+        <div *ngFor="let item of data" class="card">
+          <img src={{item.img}} alt="img">
+          <h2>{{item.infoTxt}}</h2>
+          <div>
+            <p>{{item.time}} month ago</p>
+            <p class="technology">{{item.technology}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="btn_div">
+        <p class="btn">Read More Blog</p>
+      </div>
+    </div>
+    <img class="ellipse" src="../../../assets/Ellipse 5608.svg" alt="ellipse">
+  </div>
+</div>

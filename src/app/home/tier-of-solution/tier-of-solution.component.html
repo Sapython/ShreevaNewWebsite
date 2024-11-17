@@ -1,0 +1,36 @@
+<div id="main_container">
+  <div class="content_area">
+    <div class="content_head">
+      <img src="../../../assets/Group.svg" alt="group">
+      <h1>Tier of Solutions</h1>
+      <img src="../../../assets/Group.svg" class="rev_img" alt="">
+    </div>
+    <div class="content_head_p">
+      <p>Build your Signature Products At the Most Affortable Prices with Shreeva Soft Tech
+        Innovation
+      </p>
+    </div>
+    <div class="plans_cards">
+      <div class="plans_cards_div">
+        <div class="card" *ngFor="let item of data">
+          <div class="card_head">
+
+            <h2>{{item.plan}}</h2>
+            <p *ngIf="item.price">{{item.price }} <br>
+              <span>
+                Average Price
+              </span>
+            </p>
+            <p class="custom" *ngIf="item.customBooking"> {{item.customBooking}}</p>
+          </div>
+          <div class="card_service" *ngFor="let detail of item.details">
+            <img src={{item.tickImg}} alt="tickImg">
+            <p>{{detail}}</p>
+
+          </div>
+          <button>{{item.btn}}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
